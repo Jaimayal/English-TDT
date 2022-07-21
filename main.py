@@ -25,19 +25,19 @@ async def c2_level(ctx):
 
 
 @bot.slash_command(name="b1", description="Extracto de texto nivel B1 - Intermedio")
-async def B1Level(ctx):
+async def b1_level(ctx):
     embed = await get_embed('B1')
     await ctx.respond("Here's your Paragraph", embed=embed)
 
 
 @bot.slash_command(name="a2", description="Extracto de texto nivel A2 - Elemental")
-async def A2Level(ctx):
+async def a2_level(ctx):
     embed = await get_embed('A2')
     await ctx.respond("Here's your Paragraph", embed=embed)
 
 
 @bot.slash_command(name="a1", description="Extracto de texto nivel A1 - Principiante")
-async def A1Level(ctx):
+async def a1_level(ctx):
     embed = await get_embed('A1')
     await ctx.respond("Here's your Paragraph", embed=embed)
 

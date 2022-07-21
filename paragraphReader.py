@@ -2,10 +2,10 @@ import random
 
 
 def random_paragraph(level):
-    fileLevel = level + 'Paragraphs.txt'
+    file_level = level + 'Paragraphs.txt'
 
-    with open(fileLevel, 'r') as file:
+    with open(file_level, 'r') as file:
         text = file.read()
         paragraphs = text.split('\n\n')
-        randomIndex = random.randrange(0, len(paragraphs) - 1)
-        return paragraphs[randomIndex]
+        random_index = random.randrange(0, len(paragraphs) - 1)
+        return paragraphs[random_index]
