@@ -54,3 +54,4 @@ async def get_embed(level):
 
 
 bot.run(os.getenv('TOKEN'))
+
