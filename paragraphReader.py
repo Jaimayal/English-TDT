@@ -2,7 +2,7 @@ import random
 
 
 def random_paragraph(level):
-    file_level = level + 'Paragraphs.txt'
+    file_level = './paragraphs/' + level + 'Paragraphs.txt'
 
     with open(file_level, 'r') as file:
         text = file.read()
