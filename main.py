@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import paragraphReader
 
 load_dotenv()
-bot = discord.Bot(debug_guilds=[836041445868961822])
+bot = discord.Bot(debug_guilds=[])
 
 
 @bot.event
